@@ -1,7 +1,7 @@
 URSI Codes
 ##########
 
-From: http://www.sws.bom.gov.au/World_Data_Centre/2/8/1
+From: :ref:`http://www.sws.bom.gov.au/World_Data_Centre/2/8/1`
 
 ====  ===========  ==========  ======  =====================================
 Code  Parameter    Units       UAG23   Definition
