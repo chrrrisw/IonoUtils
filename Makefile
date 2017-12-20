@@ -8,7 +8,7 @@ help:
 
 # help: docs    - make the html documentation
 docs:
-	@cd docs/source && sphinx-apidoc --separate --module-first --force --output-dir=api ../..
+	@cd docs/source && sphinx-apidoc --separate --module-first --force --output-dir=api ../../src
 	@cd docs; make html
 
 # help:
