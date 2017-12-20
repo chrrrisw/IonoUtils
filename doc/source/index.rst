@@ -6,6 +6,8 @@ IonoUtils
    :numbered:
    :caption: Contents:
 
+   ursi
+
 This library contains ...
 
 Indices and tables

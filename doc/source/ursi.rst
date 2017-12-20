@@ -1,7 +1,7 @@
 URSI Codes
 ##########
 
-From: :ref:`http://www.sws.bom.gov.au/World_Data_Centre/2/8/1`
+From: http://www.sws.bom.gov.au/World_Data_Centre/2/8/1
 
 ====  ===========  ==========  ======  =====================================
 Code  Parameter    Units       UAG23   Definition
@@ -39,7 +39,7 @@ Code  Parameter    Units       UAG23   Definition
 30    foEs         0.1 MHz     1.17    Highest ordinary wave frequency at which a mainly continuous Es trace is observed
 31    fxEs         0.1 MHz     1.17    Highest extraordinary wave frequency at which a mainly continuous Es trace is observed
 32    fbEs         0.1 MHz     1.18    Blanketing frequency of the Es layer
-33    ftEs         0.1 MHz          Top frequency Es any mode
+33    ftEs         0.1 MHz             Top frequency Es any mode
 34    h'Es         km          1.35    Minimum height of the trace used to give foEs
 35    not used
 36    type Es                  7.26    Characterisation of the shape of the Es trace W type sporadic E was used at the Australian stations between about February and April 1982 in place of H, C, L and F types.
