@@ -76,16 +76,16 @@ Code  Parameter    Units       UAG23   Definition
 67    h4           km          7.34    True height at f4 Titheridge method
 68    h5           km          7.34    True height at f5 Titheridge method
 69    H            km          7.34    Effective scale height at hmF2 Titheridge method
-70    I2000        e/cubic cm  7.34    Ionospheric electron content Faraday technique
-71    I            e/cubic cm  7.34    Total electron content to geostationary satellite
-72    Ixxxx        e/cubic cm  7.34    Ionospheric electron content to height xxxx
+70    I2000        e/cm^3      7.34    Ionospheric electron content Faraday technique
+71    I            e/cm^3      7.34    Total electron content to geostationary satellite
+72    Ixxxx        e/cm^3      7.34    Ionospheric electron content to height xxxx
 73    not used
 74    not used
 75    not used
 76    not used
 77    not used
 78    not used
-79    T            e/cubic cm  7.34    Total sub-peak content Titheridge method
+79    T            e/cm^3      7.34    Total sub-peak content Titheridge method
 80    FMINF        0.01 MHz            Minimum frequency of F trace (50 kHz increments)
 81    FMINE        0.01 MHz            Minimum frequency of E trace (50 kHz increments). Equals fbEs when E present
 82    HOM          km                  Parabolic E region peak height

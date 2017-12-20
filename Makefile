@@ -6,11 +6,11 @@
 help:
 	@grep "^# help\:" Makefile | grep -v grep | sed 's/\# help\: //' | sed 's/\# help\://'
 
-# help: doc    - make the html documentation
-doc:
-	@cd doc/source && sphinx-apidoc --separate --module-first --force --output-dir=api ../..
-	@cd doc; make html
+# help: docs    - make the html documentation
+docs:
+	@cd docs/source && sphinx-apidoc --separate --module-first --force --output-dir=api ../..
+	@cd docs; make html
 
 # help:
 
-.PHONY: help doc
+.PHONY: help docs
