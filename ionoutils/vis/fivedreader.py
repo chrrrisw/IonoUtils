@@ -1,0 +1,7 @@
+
+
+DESCRIPTORS = 'ABCDEFGHKLMNOPQRSTVWXYZ'
+QUALIFIERS = 'ADEIJMOTUZ'
+
+if __name__ == '__main__':
+    main()

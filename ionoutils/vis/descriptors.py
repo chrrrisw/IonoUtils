@@ -1,0 +1,27 @@
+DESCRIPTORS = 'ABCDEFGHKLMNOPQRSTVWXYZ'
+
+DESCRIPTOR_TEXT = {
+    'A': 'Measurement influenced by, or impossible because of, the presence of a lower thin layer, for example, ES',
+    'B': 'Measurement influenced by, or impossible because of, absorption in the vicinity of fmin',
+    'C': 'Measurement influenced by, or impossible because of, any non-ionospheric reason',
+    'D': 'Measurement influenced by, or impossible because of, the upper limit of the normal frequency range',
+    'E': 'Measurement influenced by, or impossible because of, the lower limit of the normal frequency range',
+    'F': 'Measurement influenced by, or impossible because of, the presence of spread echoes',
+    'G': 'Measurement influenced by, or impossible because the ionisation density of the reflecting layer is too small to enable it to be made accurately',
+    'H': 'Measurement influenced by, or impossible because of, the presence of stratification',
+    'K': 'Presence of a particle E layer',
+    'L': 'Measurement influenced by, or impossible because the trace has no sufficiently definite cusp between the layers',
+    'M': 'Interpretation of measurement questionable because ordinary and extraordinary components are not distinguishable. Used when interpretation is doubtful and a qualifying letter needed for other reasons (e.g., U, D, E)',
+    'N': 'Conditions are such that the measurement cannot be interpreted.',
+    'O': 'Measurement refers to the ordinary component',
+    'P': 'Measurement influenced by, or impossible because of, the presence of polar spurs',
+    'Q': 'Measurement influenced by, or impossible because of, the presence of range spread',
+    'R': 'Measurement influenced by, or impossible because of, attenuation in the vicinity of the critical frequency',
+    'S': 'Measurement influenced by, or impossible because of, interference or atmospherics',
+    'T': 'Value determined by a sequence of observations, the actual value or observation being inconsistent or doubtful',
+    'V': 'Forked trace, which may influence the measurement',
+    'W': 'Measurement influenced by, or impossible because the echo lies outside the height range recorded',
+    'X': 'Measurement refers to the extraordinary component',
+    'Y': 'Lacuna phenomena, severe layer tilt',
+    'Z': 'Third magneto-electronic component present',
+}
