@@ -25,7 +25,7 @@ setup(
     ],
     keywords='vertical incidence sounder ionogram ionosonde',
     packages=find_packages(exclude=['contrib', 'docs', 'tests']),
-    install_requires=['peppercorn'],
+    install_requires=['numpy', 'scipy', 'sqlalchemy'],
     extras_require={
         'dev': ['check-manifest'],
         'test': ['coverage'],

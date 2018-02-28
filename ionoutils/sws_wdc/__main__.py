@@ -1,6 +1,17 @@
-from .archive import WDCArchive
+import argparse
+from .archive import WDCArchive, WDC_ARCHIVE
 
-wdca = WDCArchive()
+parser = argparse.ArgumentParser()
+
+parser.add_argument(
+    '-d', '--dir',
+    dest='archive_dir',
+    type=str,
+    default=WDC_ARCHIVE,
+    help='The archive directory')
+args = parser.parse_args()
+
+wdca = WDCArchive(archive_dir=args.archive_dir)
 wdca.read_archive()
 # img = wdca.read_img('raw.png')
 # print(img.shape)
